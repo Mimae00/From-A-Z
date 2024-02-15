@@ -12,8 +12,8 @@ public class GiveLettersImpl {
         int firstLetterIndex = 0;
         int lastLetterIndex = 0;
 
-        Character firstLetter = Character.valueOf(s.charAt(0));
-        Character lastLetter = Character.valueOf(s.charAt(s.length() - 1));
+        char firstLetter = s.charAt(0);
+        char lastLetter = s.charAt(s.length() - 1);
 
         if (Character.isUpperCase(firstLetter)){
            alphabhetCheck = alpabhet.toUpperCase();
